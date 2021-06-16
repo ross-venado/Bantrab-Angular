@@ -69,31 +69,3 @@ body {
   text-align: right;
   padding-left: 10px;
 }
-
-.topnav {
-    background-color: #333;
-    background: rgb(0,212,255);
-background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(68,188,181,1) 51%, rgba(9,122,103,0.7012718286407128) 99%);
-    overflow: hidden;
-  }
-
-
-  #demo {
-    -webkit-transition: width 2s ease;
-    -moz-transition: width 2s ease;
-    -o-transition: width 2s ease;
-    transition: width 2s ease;
-    
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    background: yellow;
-    vertical-align: middle;
-    line-height: 30px;
-    height: 30px;
-
-    width: 0px;
-}
-#demo.in {
-    width: 220px;
-}

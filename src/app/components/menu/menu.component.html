@@ -1,0 +1,23 @@
+
+<ul class="list-group sticky-top sticky-offset">
+
+  <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+    <small>MAIN MENU</small>
+  </li>
+
+  <a [routerLink]="ruta.path"
+     class="bg-dark list-group-item list-group-item-action"
+     *ngFor="let ruta of rutas">
+      {{ ruta.name }}
+  </a>
+
+  <!-- <a href="#" class="bg-dark list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-start align-items-center">
+        <span class="fa fa-tasks fa-fw mr-3"></span>
+        <span class="menu-collapsed">Tasks</span>
+    </div>
+</a> -->
+
+
+
+</ul>
